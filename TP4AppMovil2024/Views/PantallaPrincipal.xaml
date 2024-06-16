@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP4AppMovil2024.Views.PantallaPrincipal"
+             Title="PantallaPrincipal"
+             BackgroundColor="{StaticResource Fondo}">
+
+    <Grid Margin="30,-150,30,30" RowDefinitions=".1*,.1*,.1*,.1*,.1*">
+
+        <Button Grid.Row="1"
+            BackgroundColor="{StaticResource Boton}"
+            FontFamily="RubikRegular"
+            Text="Acerca de Nosotros"
+            Margin="35,60,35,60"
+            TextColor="Black"
+            Clicked="btnAcercaDeNosotros_Clicked"
+            x:Name="btnAcercaDeNosotros">
+        </Button>
+
+        <Button Grid.Row="2"
+            BackgroundColor="{StaticResource Boton}"
+            FontFamily="RubikRegular"
+            Text="Acerca del Developper"
+            Margin="35,60,35,60"
+            TextColor="Black"
+            Clicked="AcercaDelDeveloper_Clicked"
+            x:Name="AcercaDelDeveloper">
+        </Button>
+
+        <Button Grid.Row="3"
+            BackgroundColor="{StaticResource Boton}"
+            FontFamily="RubikRegular"
+            Text="Proximamente"
+            Margin="35,60,35,60"
+            TextColor="Black"
+            Clicked="btnPantallaProximamente3_Clicked"
+            x:Name="btnPantallaProximamente2">
+        </Button>
+
+        <Button Grid.Row="4"
+            BackgroundColor="{StaticResource Boton}"
+            FontFamily="RubikRegular"
+            Text="Proximamente"
+            Margin="35,60,35,60"
+            TextColor="Black"
+            Clicked="btnPantallaProximamente3_Clicked"
+            x:Name="btnPantallaProximamente3">
+        </Button>
+
+    </Grid>
+</ContentPage>
